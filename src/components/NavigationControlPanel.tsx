@@ -337,6 +337,7 @@ const NavigationControlPanel: React.FC<NavigationControlPanelProps> = ({
                           <span className="flex-grow text-left">
                             {track.name}
                           </span>
+
                           {/* Use tabular-nums */}
                           <span className="ml-2 tabular-nums">
                             {formatTime(track.duration || 0)}
